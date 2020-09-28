@@ -23,6 +23,10 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("onigiris give strength, you should try them :)) 🍙")
       counter += 1
+       if each_word == "onigiri":
+      feelings_list.append("onigiri")
+      encouragement_list.append("congratulations, you have unlocked the final level of onigiris 🍙. Good job, and continue being and feeling like an onigiri :P")
+      counter += 1
 
   if counter == 0:
     
