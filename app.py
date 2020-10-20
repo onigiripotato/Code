@@ -13,19 +13,23 @@ while True:
     
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("eat onigiris, they help you feel better :D 🍙")
+      encouragement_list.append("to talk to your family and friends, they can help you feel better! 😁🍙")
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
-      encouragement_list.append("to keep smiling, and eat onigiris 🍙")
+      encouragement_list.append("to keep smiling and spread joy through good deeds. 😁🍙")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
-      encouragement_list.append("onigiris give strength, you should try them :)) 🍙")
+      encouragement_list.append("to get some rest when needed and not to stress yourself out too much. 😁🍙")
       counter += 1
-       if each_word == "onigiri":
+    if each_word == "onigiri":
       feelings_list.append("onigiri")
-      encouragement_list.append("congratulations, you have unlocked the final level of onigiris 🍙. Good job, and continue being and feeling like an onigiri :P")
+      encouragement_list.append("congratulations, you have unlocked the final level of onigiris. Good job, and continue being and feeling like an onigiri! 😁🍙")
+      counter += 1
+  if each_word == "dead":
+      feelings_list.append("dead")
+      encouragement_list.append("to seek encouragement from friends and family, they would always cheer you up! Stay positive! 😁🍙. Good job, and continue being and feeling like an onigiri")
       counter += 1
 
   if counter == 0:
@@ -48,7 +52,7 @@ while True:
       encouragement += encouragement_list[i] + ", "
     encouragement += "and " + encouragement_list[-1]
 
-    output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "! Hope you feel better :)"
+    output = "It seems that you are feeling quite " + feelings + ".  " encouragement "
 
   print()
   print(output)
